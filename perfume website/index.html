@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 border-b border-gray-800 height text-white py-4">
+        <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-semibold">ShopLogo</a>
+            <div class="space-x-6">
+                <a href="#" class="hover:text-gray-200">Home</a>
+                <a href="#" class="hover:text-gray-200">Shop</a>
+                <a href="#" class="hover:text-gray-200">About Us</a>
+                <a href="#" class="hover:text-gray-200">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <!-- <section class="bg-gray-900 text-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-max lg:items-center">
+          <div class="mx-auto max-w-3xl text-center">
+            <h1
+              class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+            >
+              Understand User Flow.
+      
+              <span class="sm:block"> Increase Conversion. </span>
+            </h1>
+      
+            <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
+              numquam ea!
+            </p>
+      
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                class="block w-full rounded-sm border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:ring-3 focus:outline-hidden sm:w-auto"
+                href="#"
+              >
+                Get Started
+              </a>
+      
+              <a
+                class="block w-full rounded-sm border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:ring-3 focus:outline-hidden sm:w-auto"
+                href="#"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      
+    <!-- Product Details Grid -->
+    <section class="py-8 bg-white md:py-16 dark:bg-gray-900  antialiased">
+        <div class="max-w-screen-xl border-t border-gray-600 pt-24 px-4 mx-auto 2xl:px-0">
+          <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
+            <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
+              <img class="w-full dark:hidden" src="https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_620/bleu-de-chanel-parfum-spray-5fl-oz--packshot-default-107190-8819960250398.jpg" alt="" />
+              <img class="w-full hidden dark:block" src="https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_620/bleu-de-chanel-parfum-spray-5fl-oz--packshot-default-107190-8819960250398.jpg" alt="" />
+            </div>
+    
+            <div class="mt-6 sm:mt-8 lg:mt-0">
+              <h1
+                class="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white"
+              >
+                Apple iMac 24" All-In-One Computer, Apple M1, 8GB RAM, 256GB SSD,
+                Mac OS, Pink
+              </h1>
+              <div class="mt-4 sm:items-center sm:gap-4 sm:flex">
+                <p
+                  class="text-2xl font-extrabold text-gray-900 sm:text-3xl dark:text-white"
+                >
+                  $1,249.99
+                </p>
+    
+                <div class="flex items-center gap-2 mt-2 sm:mt-0">
+                  <div class="flex items-center gap-1">
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z"
+                      />
+                    </svg>
+                    <svg
+                      class="w-4 h-4 text-yellow-300"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z"
+                      />
+                    </svg>
+                  </div>
+                  <p
+                    class="text-sm font-medium leading-none text-gray-500 dark:text-gray-400"
+                  >
+                    (5.0)
+                  </p>
+                  <a
+                    href="#"
+                    class="text-sm font-medium leading-none text-gray-900 underline hover:no-underline dark:text-white"
+                  >
+                    345 Reviews
+                  </a>
+                </div>
+              </div>
+    
+              <div class="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
+                <a
+                  href="#"
+                  title=""
+                  class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                  role="button"
+                >
+                  <svg
+                    class="w-5 h-5 -ms-2 me-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+                    />
+                  </svg>
+                  Add to favorites
+                </a>
+    
+                <a
+                  href="#"
+                  title=""
+                  class="text-white mt-4 sm:mt-0 bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 flex items-center justify-center"
+                  role="button"
+                >
+                  <svg
+                    class="w-5 h-5 -ms-2 me-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6"
+                    />
+                  </svg>
+    
+                  Add to cart
+                </a>
+              </div>
+    
+              <hr class="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
+    
+              <p class="mb-6 text-gray-500 dark:text-gray-400">
+                Studio quality three mic array for crystal clear calls and voice
+                recordings. Six-speaker sound system for a remarkably robust and
+                high-quality audio experience. Up to 256GB of ultrafast SSD storage.
+              </p>
+    
+              <p class="text-gray-500 dark:text-gray-400">
+                Two Thunderbolt USB 4 ports and up to two USB 3 ports. Ultrafast
+                Wi-Fi 6 and Bluetooth 5.0 wireless. Color matched Magic Mouse with
+                Magic Keyboard or Magic Keyboard with Touch ID.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Detailed Description Section -->
+    <section class="bg-gray-900 text-white  py-12 px-4">
+        <div class="max-w-screen-xl border-t border-gray-600 mx-auto">
+            <section class="py-12 px-6 max-w-screen-xl mx-auto">
+                <h1 class="text-4xl font-bold text-center mb-8">Discover the Allure of </h1>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                    Indulge in the luxury of , an extraordinary fragrance designed to captivate the senses and evoke emotions that linger long after you leave the room. This signature perfume is a harmonious blend of rare and exquisite ingredients, carefully selected to create a scent that speaks to the heart of elegance, mystery, and sophistication. Whether you're dressing for a special occasion or enhancing your everyday allure,  is the perfect companion to elevate your presence and make a lasting impression.
+                </p>
+        
+                <h2 class="text-3xl font-semibold text-gray-200 mb-4">The Fragrance Journey</h2>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                    When you wear , you're not just wearing a fragrance—you're experiencing a journey that unfolds with each passing moment. From the first spritz to the lingering notes, this perfume tells a story of elegance, charm, and timeless beauty.
+                </p>
+        
+                <ul class="list-inside list-disc text-lg text-gray-200 mb-6">
+                    <li><strong>Top Notes</strong>: The initial burst of citrus fruits and fresh florals is invigorating and energizing. These notes include bright bergamot, zesty lemon, and the sweet essence of jasmine petals. The opening is clean, fresh, and vibrant.</li>
+                    <li><strong>Heart Notes</strong>: As the perfume settles into your skin, the heart notes emerge—blending the delicate richness of lavender, the warmth of rose, and the soft sweetness of peony. These heart notes bring a soft, romantic quality that gently envelops you in sophistication.</li>
+                    <li><strong>Base Notes</strong>: The lasting impression is created by a warm and sensual base of vanilla, patchouli, and musk. The deeper notes are smooth and comforting, with a lingering depth that is both elegant and irresistible. These base notes hold the fragrance together, ensuring it lasts throughout the day and night.</li>
+                </ul>
+        
+                <h2 class="text-3xl font-semibold text-gray-200 mb-4">Why Choose ?</h2>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                     is not just a fragrance; it's an experience that resonates with every spritz. Designed for those who seek refinement, it appeals to individuals with a keen sense of style and an appreciation for quality. Here’s why  should be your go-to fragrance:
+                </p>
+        
+                <ul class="list-inside list-disc text-lg text-gray-200 mb-6">
+                    <li><strong>Timeless Elegance</strong>: With its unique blend of notes, this fragrance is both modern and classic. It effortlessly fits into any occasion, whether you're attending a glamorous evening event or simply enjoying a quiet dinner. The balance of citrus freshness, floral romance, and warm sensuality ensures that  remains relevant and chic, year after year.</li>
+                    <li><strong>Long-Lasting</strong>: One of the standout qualities of  is its longevity. Unlike many perfumes that fade away within hours, this fragrance stays with you all day long, leaving a soft trail of scent wherever you go. It’s perfect for those who want a fragrance that lasts through work, dinner, and evening events.</li>
+                    <li><strong>Versatile and Unforgettable</strong>: Whether you prefer a subtle fragrance or a stronger scent that demands attention,  offers versatility. Its balanced composition allows it to adapt to different occasions, environments, and moods, making it your signature scent. With just one spray,  will make an unforgettable impression, ensuring you're remembered long after you've left.</li>
+                </ul>
+        
+                <h2 class="text-3xl font-semibold text-gray-200 mb-4">The Craftsmanship Behind the Fragrance</h2>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                    Creating a perfume is an art form, and at <strong>[Brand Name]</strong>, we pride ourselves on our commitment to excellence. Each bottle of  is the result of months of meticulous development, using only the finest ingredients sourced from around the world. Our master perfumers blend nature’s most precious elements to create a scent that is both balanced and enchanting.
+                </p>
+        
+                <ul class="list-inside list-disc text-lg text-gray-200 mb-6">
+                    <li><strong>Premium Ingredients</strong>: We use only the highest quality ingredients to craft , ensuring that each bottle contains a fragrance that is rich, complex, and long-lasting. From rare florals to rich woody notes, every component is hand-picked for its exceptional quality.</li>
+                    <li><strong>Sustainability and Ethics</strong>: At <strong>[Brand Name]</strong>, we care about the environment. That's why we make sure that all our ingredients are ethically sourced, and we strive to minimize our environmental footprint through sustainable practices. Our commitment to sustainability extends to the packaging as well, using recyclable materials to ensure that our beautiful bottles are as eco-friendly as they are luxurious.</li>
+                </ul>
+        
+              
+        
+        
+        
+                <h2 class="text-3xl font-semibold text-gray-200 mb-4">What Makes  the Perfect Gift?</h2>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                    Looking for a special gift for someone important?  is the ideal choice. Its elegant packaging and luxurious scent make it the perfect present for any occasion. Whether it's for a birthday, anniversary, or a holiday celebration,  will delight and surprise anyone who receives it.
+                </p>
+        
+                <ul class="list-inside list-disc text-lg text-gray-200 mb-6">
+                    <li><strong>Elegant Packaging</strong>: Each bottle of  comes in a beautifully designed box, making it a thoughtful and impressive gift. The sleek bottle is a work of art in itself, with its delicate curves and sparkling glass that reflect the elegance of the fragrance within.</li>
+                    <li><strong>A Gift that Lasts</strong>: A fragrance like  is a gift that keeps on giving. Every spritz will remind the recipient of your thoughtful gesture, making it a truly memorable present.</li>
+                </ul>
+        
+            
+                <h2 class="text-3xl font-semibold text-gray-200 mb-4">Conclusion</h2>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                    Elevate your scent experience with —a fragrance that combines the beauty of nature with the art of perfumery. Whether you're looking for a signature scent that reflects your personality or a gift that speaks volumes,  is the perfect choice.
+                </p>
+        
+                <p class="text-lg text-gray-200 mb-6">
+                    Indulge in this luxurious perfume and let it become an integral part of your daily ritual. From the fresh top notes to the sensual base, each moment with  is a celebration of grace, elegance, and timeless beauty. Choose  today and make your fragrance journey unforgettable.
+                </p>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+        <div class="mx-auto max-w-screen-xl text-center">
+           
+            <p class="my-6 text-gray-500 dark:text-gray-400">Best perfume brand for all time  favourite fragrences.</p>
+            <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Terms and conditions</a>
+                </li>
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Privacy policies</a>
+                </li>
+                
+                
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">Contact us</a>
+                </li>
+                
+            </ul>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2021-2022 <a href="#" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+        </div>
+      </footer>
+
+</body>
+</html>
